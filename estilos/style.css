@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #FF7A00;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.4em;
+}
+
+#burguer {
+    font-size: 1.8em;
+}
+
+#burguer:hover {
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+}
+
+#saldo {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding-bottom: 13px;
+}
+
+#saldo h2 {
+    font-size: 1em;
+    align-self: center;
+    color: rgb(231, 112, 0);
+}
+
+.itens {
+    padding: 10px;
+    border: 1px solid rgb(255, 124, 2);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.itens:hover {
+    cursor: pointer;
+}
+
+.mais {
+    align-self: center;
+}
+
+#more {
+    font-size: 1.6em;
+    color: rgb(231, 112, 0);
+    margin-left: 40px;
+    transform: rotate(-0.25turn);
+}
+
+#more:hover {
+    cursor: pointer;
+}
+
+#botoes {
+    margin-top: 10px;
+
+}
+
+#botoes p {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(100, 100, 100);
+}
+
+.card p {
+    font-size: 0.9em;
+}
+
+#master {
+    vertical-align: middle;
+    font-size: 1.6em;
+    color: black;
+}
+
+#arrow {
+    vertical-align: super;
+    font-size: 0.9em;
+
+}
+
+#arrow:hover {
+    cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itens1 {
+    position: relative;
+    margin: 20px 10px;
+    width: calc(33% - 19px );
+    height: 100px;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+.itens1:hover {
+    cursor: pointer;
+}
+
+.itens1 p  {
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    top: 70%;
+    font-size: 0.7em;
+}
+
+
+#butao {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-size: 2.5em;
+    color: rgb(160, 160, 160);
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+
+/*Telas pequenas*/
+@media screen and (max-width: 360px) {
+    .itens1 p {
+        font-size: 0.5em;
+    }
+}
+
+/*tablets*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/*telas grandes*/
+
+@media screen and (max-width: 992px) {
+    
+}
